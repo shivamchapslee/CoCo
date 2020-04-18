@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\Admin\ProcessManagement\" />
+    <Folder Include="Controllers\Auth\Admin\" />
+    <Folder Include="Controllers\Auth\User\" />
+    <Folder Include="Controllers\Security\AntiForgery\" />
+    <Folder Include="Controllers\Users\ConsumableSelection\ActionSubmittion\" />
+    <Folder Include="Middlewares\AntiXSS\" />
+    <Folder Include="Middlewares\HeaderValidation\" />
+    <Folder Include="Models\Admin\ProcessManagement\" />
+    <Folder Include="Models\Auth\Admin\" />
+    <Folder Include="Models\Auth\User\" />
+    <Folder Include="Models\Security\AntiForgery\" />
+    <Folder Include="Models\Users\ConsumableSelection\" />
+    <Folder Include="Resources\v1\" />
+    <Folder Include="Services\Communication\" />
+    <Folder Include="Services\Encryption\" />
+  </ItemGroup>
+
+</Project>
